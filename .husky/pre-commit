@@ -1,0 +1,11 @@
+###
+ # @Author: xinxu
+ # @Date: 2022-07-25 15:33:28
+ # @LastEditors: xinxu
+ # @LastEditTime: 2022-07-25 15:39:58
+ # @FilePath: /react-vite/.husky/pre-commit
+### 
+#!/usr/bin/env sh
+. "$(dirname -- "$0")/_/husky.sh"
+
+npx --no -- lint-staged

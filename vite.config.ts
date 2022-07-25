@@ -16,12 +16,12 @@ const variablePath = normalizePath(path.resolve('./src/variable.scss'));
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [
-    react(), 
-    viteEslint(), 
+    react(),
+    viteEslint(),
     viteStylelint({
       // 对某些文件排除检查
       exclude: /tailwindcss|node_modules/
-    }),
+    })
   ],
   css: {
     preprocessorOptions: {
